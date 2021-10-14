@@ -36,7 +36,7 @@ const Home = ({ data }) => {
      
       
    </div>
-   {/* adding a comp that uses the data to display the last post */}
+   
     { data && <Homepost data={data}  /> } 
     </>    
   
