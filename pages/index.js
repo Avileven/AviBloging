@@ -21,14 +21,14 @@ const Home = ({ data }) => {
   return (
     <>
     <Head>
-      <title>Leventhal's blog | Home</title>
+      <title>Leventhal blog | Home</title>
       <meta name="keywords" content="leventhal"/>
     </Head>
    <div className="home"> 
-    <h1>Hey, welcome to my blog:)</h1>
+    <h1>Hey, welcome to my blog</h1>
       <div className="home-cont">
     
-      <h2>My name is Avi Leventhal. I'm a Web Developer and Digital
+      <h2>My name is Avi Leventhal. 
          media expert. Experienced entrepreneur in the digital marketplace.
       </h2>
       <Image src="/avi5.png" alt="avi pic" width={400} height={300} />  
