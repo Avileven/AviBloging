@@ -29,7 +29,7 @@ const Home = ({ data }) => {
       <div className="home-cont">
     
       <h2>My name is Avi Leventhal. 
-         media expert. Experienced entrepreneur in the digital marketplace.
+         A Web expert and experienced entrepreneur in the digital marketplace.
       </h2>
       <Image src="/avi5.png" alt="avi pic" width={400} height={300} />  
      </div>   
