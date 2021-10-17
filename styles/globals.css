@@ -377,5 +377,26 @@ color: rgb(92,158,159)
     margin-bottom: 50px;
     animation: unset;
      }
+    /* about page */
+    .about-me .about-img {
+    float: unset;
+    animation: unset;
+    margin-top: 30px;
+    margin-left: 50px;
+    } 
+    .about-me .contact-img  {
+    animation: unset; 
+    margin-left: 20px;
+    }
+    .about-me .contact-img  img{
+     margin-left:100px;
+    }
+    .about-me .about-cont h1{
+     font-size: 25px;
+    }
+
+    .about-me .about-cont h1,h3 {
+    margin:50px;
+     }
 
   }
