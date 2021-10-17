@@ -36,9 +36,7 @@ nav h1 {
  animation-name:home ;
  animation-duration: 5s;
 }
-nav .logo {
-  margin-right: auto;
-}
+
 
 /* Footer */
 footer {
@@ -88,16 +86,16 @@ font-size: large;
   /* single page content */
 
   .post-page .post-cont h3{
- font-size: 16px;
+  font-size: 16px;
   align-items: center;
- max-width: 600px;
+  max-width: 600px;
       
   }
  .post-page .post-cont h4{
- font-size: 14px;
- text-align-last: center;
- max-width: 600px;
- color:rgb(51,91,147);
+  font-size: 14px;
+  text-align-last: center;
+  max-width: 600px;
+  color:rgb(51,91,147);
            
  }
 
@@ -107,10 +105,10 @@ text-align-last: center;
 max-width: 600px;
 animation-name:home ;
  animation-duration: 3s;
-
+}
 /* main blog page */
 
-}
+
 .blog-list ,.blog-list a {
 color:rgb(92,158,159);
 
@@ -265,39 +263,41 @@ color: rgb(92,158,159)
     color:rgb(33, 23, 143)
   }
 
+
   .coding .coding-cont h1{
   color:rgb(42, 147, 153);
   font-size: 26px;   
   }
- /* responsive design */
+
+  /* responsive design */
 
   @media screen and (max-width:1200px) {
     /* nav */
     nav {
-      margin-right: 25px;
-      padding: 10px 0;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      border-bottom: 1px solid #ddd;
+    margin-right: 25px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #ddd;
     }
     
     nav a {
-      margin-left: 7px;
-      margin-right: 0%;
-      color:cadetblue;
-      font-size: 14px;
+    margin-left: 7px;
+    margin-right: 0%;
+    color:cadetblue;
+    font-size: 14px;
     }
     nav h1 {
-      margin-right: 45px;
-      margin-left: 25px;
-      margin-top: -15px;
-      font-size: 2px;
-     animation:none;
+    margin-right: 45px;
+    margin-left: 25px;
+    margin-top: -15px;
+    font-size: 10px;
+    animation:none;
     }
     /* Homepage /index */
     .home {
-     margin: 15px; 
+    margin: 15px; 
     }
     .home h1, .home-data .home-title h1{
      font-size:24px;
@@ -305,73 +305,77 @@ color: rgb(92,158,159)
     }
     .home .home-cont,.home-data .home-post  {
      display:unset; 
-       }
+      }
     .home .home-cont h2{
       margin:20px;
       font-size: 18px;
-       }
-       .home-data{
-        margin: 30px; 
-        padding: unset;
-       }
-       .home-data .home-post h2{
-        padding:unset;
-        
+      }
+     .home h1 {
+      animation: unset; 
+      margin-left:20px;
+     } 
 
-       }
-       .home-data .home-title h2{
-        font-size: 22px;
-        padding-left: 25px;
-        color: rgb(92,158,159)
-       }
+      .home-data{
+      margin: 30px; 
+      padding: unset;
+      }
+      .home-data .home-post h2{
+      padding:unset;
+      }
+      .home-data .home-title h2{
+      font-size: 22px;
+      padding-left: 25px;
+      color: rgb(92,158,159)
+      }
   
- /* footer */
-footer img {
-width: 90px;
-height: 15px;
+      /* footer */
+      footer img {
+      width: 90px;
+      height: 15px;
+      }
 
- }
+      /* main blog page */
 
- /* main blog page */
+      .blog-list ,.blog-list a {
+      margin-left: 85px;
+      }
 
- .blog-list ,.blog-list a {
- margin-left: 85px;
-   
-  }
+      .blog-list .blog-img {
+      float:unset; 
+      margin-top: -60px;
+      margin-right: 75px;
+      margin-bottom: 30px;
+      animation: unset;
+      }
 
-  .blog-list .blog-img {
-    float:unset; 
-    margin-top: -60px;
-    margin-right: 75px;
-    margin-bottom: 30px;
-   animation: unset;
-    }
+      .last-cat h1{
+      margin-bottom: -20px;
+      }
 
-   .last-cat h1{
-   margin-bottom: -20px;
+     .blog-list ,.blog-list a {
+     color:rgb(159, 92, 129);
+     padding-bottom:  -50px;
+     }
 
-   }
+     /* coding page */
+     .coding .coding-img{
+     float: unset;
+     margin-top: -100px;
+     }
+     .coding {
+     margin:20px;
+     }
+     /* single page content */
+     .post-page .post-cont {
+      margin:20px; 
+     }
 
-   .blog-list ,.blog-list a {
-    color:rgb(159, 92, 129);
-   padding-bottom:  -50px;
-
-   }
-
-   /* coding page */
-   .coding .coding-img{
-    float: unset;
-    margin-top: -100px;
-    }
-  .coding {
-
-    margin:20px;
-  }
-
-
-
-
-
-
+     .post-page .cat-set {
+     float:unset;
+    margin-top: -60px; 
+    margin-left: 130px;
+    margin-bottom: 50px;
+    animation: unset;
+     }
 
   }
