@@ -22,7 +22,7 @@ const Coding = () => {
                
 
            
-            <h3><a href="https://github.com/Avileven/next-blog/">The code source could be find in my 
+            <h3><a href="https://github.com/Avileven/Levenethal">The code source could be find in my 
             GitHub repo  </a></h3>
 
             <h3><a href="https://my-json-server.typicode.com/Avileven/jsonend/blogs/">For the endpoint ,
