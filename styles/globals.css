@@ -16,7 +16,7 @@ a {
 /* Navbar */
 nav {
   margin: 20px auto 100px;
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -32,6 +32,7 @@ nav a:hover {
 }
 nav h1 {
  color:rgb(92,158,159);
+ margin-right: 340px;
  margin-bottom:-3px;
  animation-name:home ;
  animation-duration: 5s;
@@ -335,26 +336,21 @@ color: rgb(92,158,159)
       }
 
       /* main blog page */
-
-      .blog-list ,.blog-list a {
-      margin-left: 85px;
-      }
+     
 
       .blog-list .blog-img {
       float:unset; 
       margin-top: -60px;
-      margin-right: 75px;
+      align-items: center;
       margin-bottom: 30px;
       animation: unset;
       }
 
-      .last-cat h1{
-      margin-bottom: -20px;
-      }
-
+      
      .blog-list ,.blog-list a {
      color:rgb(159, 92, 129);
      padding-bottom:  -50px;
+     text-align: center;
      }
 
      /* coding page */
@@ -368,6 +364,9 @@ color: rgb(92,158,159)
      /* single page content */
      .post-page .post-cont {
       margin:20px; 
+     }
+     .post-page .post-cont h1 {
+      text-align: center;
      }
 
      .post-page .cat-set {
@@ -395,8 +394,8 @@ color: rgb(92,158,159)
      font-size: 25px;
     }
 
-    .about-me .about-cont h1,h3 {
+    .about-me .about-cont h1 {
     margin:50px;
      }
-
+    
   }
